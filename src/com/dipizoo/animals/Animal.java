@@ -1,7 +1,5 @@
 package com.dipizoo.animals;
 
-enum Gender {MALE, FEMALE}
-
 public abstract class Animal {
 
     // Attributes
@@ -41,6 +39,10 @@ public abstract class Animal {
 
     public Gender getGender() {
         return gender;
+    }
+
+    public void setGender(Gender gender) {
+        this.gender = gender;
     }
 
     // Methods
